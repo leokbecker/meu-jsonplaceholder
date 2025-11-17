@@ -1,26 +1,57 @@
 {
-  "albums": [
-    {
-      "id": 1,
-      "title": "Primeiro álbum",
-      "userId": 1
-    }
-  ],
-  "photos": [
-    {
-      "albumId": 1,
-      "id": 1,
-      "title": "Foto teste",
-      "url": "https://picsum.photos/600?random=1",
-      "thumbnailUrl": "https://picsum.photos/150?random=1"
-    }
-  ],
   "users": [
     {
       "id": 1,
-      "name": "Usuário teste",
-      "username": "teste",
-      "email": "teste@example.com"
+      "name": "Alice Martins",
+      "username": "alice",
+      "email": "alice@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Bruno Silva",
+      "username": "bruno",
+      "email": "bruno@example.com"
+    },
+    {
+      "id": 3,
+      "name": "Carla Souza",
+      "username": "carla",
+      "email": "carla@example.com"
     }
+  ],
+
+  "albums": [
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "Álbum da Alice"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "title": "Álbum do Bruno"
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "title": "Álbum da Carla"
+    }
+  ],
+
+  "photos": [
+    { "albumId": 1, "id": 1, "title": "Alice 1", "url": "https://picsum.photos/600?random=11", "thumbnailUrl": "https://picsum.photos/150?random=11" },
+    { "albumId": 1, "id": 2, "title": "Alice 2", "url": "https://picsum.photos/600?random=12", "thumbnailUrl": "httpsum.photos/150?random=12" },
+    { "albumId": 1, "id": 3, "title": "Alice 3", "url": "https://picsum.photos/600?random=13", "thumbnailUrl": "https://picsum.photos/150?random=13" },
+    { "albumId": 1, "id": 4, "title": "Alice 4", "url": "https://picsum.photos/600?random=14", "thumbnailUrl": "https://picsum.photos/150?random=14" },
+
+    { "albumId": 2, "id": 5, "title": "Bruno 1", "url": "https://picsum.photos/600?random=21", "thumbnailUrl": "https://picsum.photos/150?random=21" },
+    { "albumId": 2, "id": 6, "title": "Bruno 2", "url": "https://picsum.photos/600?random=22", "thumbnailUrl": "https://picsum.photos/150?random=22" },
+    { "albumId": 2, "id": 7, "title": "Bruno 3", "url": "https://picsum.photos/600?random=23", "thumbnailUrl": "https://picsum.photos/150?random=23" },
+    { "albumId": 2, "id": 8, "title": "Bruno 4", "url": "https://picsum.photos/600?random=24", "thumbnailUrl": "https://picsum.photos/150?random=24" },
+
+    { "albumId": 3, "id": 9, "title": "Carla 1", "url": "https://picsum.photos/600?random=31", "thumbnailUrl": "https://picsum.photos/150?random=31" },
+    { "albumId": 3, "id": 10, "title": "Carla 2", "url": "https://picsum.photos/600?random=32", "thumbnailUrl": "https://picsum.photos/150?random=32" },
+    { "albumId": 3, "id": 11, "title": "Carla 3", "url": "https://picsum.photos/600?random=33", "thumbnailUrl": "https://picsum.photos/150?random=33" },
+    { "albumId": 3, "id": 12, "title": "Carla 4", "url": "https://picsum.photos/600?random=34", "thumbnailUrl": "https://picsum.photos/150?random=34" }
   ]
 }
