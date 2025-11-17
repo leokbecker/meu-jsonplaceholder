@@ -1,0 +1,26 @@
+{
+  "albums": [
+    {
+      "id": 1,
+      "title": "Primeiro álbum",
+      "userId": 1
+    }
+  ],
+  "photos": [
+    {
+      "albumId": 1,
+      "id": 1,
+      "title": "Foto teste",
+      "url": "https://picsum.photos/600?random=1",
+      "thumbnailUrl": "https://picsum.photos/150?random=1"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Usuário teste",
+      "username": "teste",
+      "email": "teste@example.com"
+    }
+  ]
+}
