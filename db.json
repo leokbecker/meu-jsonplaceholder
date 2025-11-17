@@ -40,7 +40,7 @@
 
   "photos": [
     { "albumId": 1, "id": 1, "title": "Alice 1", "url": "https://picsum.photos/600?random=11", "thumbnailUrl": "https://picsum.photos/150?random=11" },
-    { "albumId": 1, "id": 2, "title": "Alice 2", "url": "https://picsum.photos/600?random=12", "thumbnailUrl": "httpsum.photos/150?random=12" },
+    { "albumId": 1, "id": 2, "title": "Alice 2", "url": "https://picsum.photos/600?random=12", "thumbnailUrl": "https://picsum.photos/150?random=12" },
     { "albumId": 1, "id": 3, "title": "Alice 3", "url": "https://picsum.photos/600?random=13", "thumbnailUrl": "https://picsum.photos/150?random=13" },
     { "albumId": 1, "id": 4, "title": "Alice 4", "url": "https://picsum.photos/600?random=14", "thumbnailUrl": "https://picsum.photos/150?random=14" },
 
